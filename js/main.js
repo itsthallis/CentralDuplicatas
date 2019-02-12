@@ -18,6 +18,13 @@ new Vue({
 	el: '#xmlimport'
 });
 
+new Vue({
+	el: '#termos',
+	data: {
+		termoschecked: true
+	}
+});
+
 const app = new Vue({
 	el:'#cad',
 	data: {

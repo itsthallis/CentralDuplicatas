@@ -228,3 +228,44 @@ C:/Users/Thallis/Desktop/CentralDuplicatas/CentralDuplicatas/obj/Debug/netcoreap
 /home/thallis/Área de Trabalho/CentralDuplicata/obj/Debug/netcoreapp2.1/CentralDuplicatas.dll
 /home/thallis/Área de Trabalho/CentralDuplicata/obj/Debug/netcoreapp2.1/CentralDuplicatas.pdb
 /home/thallis/Área de Trabalho/CentralDuplicata/obj/Debug/netcoreapp2.1/CentralDuplicatas.csproj.CopyComplete
+/home/thallis/Documentos/CentralDuplicatas/bin/Debug/netcoreapp2.1/app.db
+/home/thallis/Documentos/CentralDuplicatas/bin/Debug/netcoreapp2.1/CentralDuplicatas.deps.json
+/home/thallis/Documentos/CentralDuplicatas/bin/Debug/netcoreapp2.1/CentralDuplicatas.runtimeconfig.json
+/home/thallis/Documentos/CentralDuplicatas/bin/Debug/netcoreapp2.1/CentralDuplicatas.runtimeconfig.dev.json
+/home/thallis/Documentos/CentralDuplicatas/bin/Debug/netcoreapp2.1/CentralDuplicatas.dll
+/home/thallis/Documentos/CentralDuplicatas/bin/Debug/netcoreapp2.1/CentralDuplicatas.pdb
+/home/thallis/Documentos/CentralDuplicatas/bin/Debug/netcoreapp2.1/CentralDuplicatas.Views.dll
+/home/thallis/Documentos/CentralDuplicatas/bin/Debug/netcoreapp2.1/CentralDuplicatas.Views.pdb
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/CentralDuplicatas.csprojAssemblyReference.cache
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/CentralDuplicatas.csproj.CoreCompileInputs.cache
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/CentralDuplicatas.RazorAssemblyInfo.cache
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/CentralDuplicatas.RazorAssemblyInfo.cs
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/UserSecretsAssemblyInfo.cs
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/CentralDuplicatas.AssemblyInfoInputs.cache
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/CentralDuplicatas.AssemblyInfo.cs
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/CentralDuplicatas.TagHelpers.input.cache
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/CentralDuplicatas.TagHelpers.output.cache
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/CentralDuplicatas.RazorCoreGenerate.cache
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/Razor/Areas/Identity/Pages/_ViewStart.g.cshtml.cs
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/Razor/Views/Cad/Cad.g.cshtml.cs
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/Razor/Views/Certificate/certificate.g.cshtml.cs
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/Razor/Views/Dashboard/Dashboard.g.cshtml.cs
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/Razor/Views/Home/index.g.cshtml.cs
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/Razor/Views/Home/Privacy.g.cshtml.cs
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/Razor/Views/Login/login.g.cshtml.cs
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Error.g.cshtml.cs
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_Layout.g.cshtml.cs
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_LoginPartial.g.cshtml.cs
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/Razor/Views/Xmlimport/Xmlimport.g.cshtml.cs
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/Razor/Views/_ViewImports.g.cshtml.cs
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/Razor/Views/_ViewStart.g.cshtml.cs
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/CentralDuplicatas.RazorTargetAssemblyInfo.cache
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/CentralDuplicatas.RazorTargetAssemblyInfo.cs
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/CentralDuplicatas.Views.pdb
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/CentralDuplicatas.dll
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/CentralDuplicatas.pdb
+/home/thallis/Documentos/CentralDuplicatas/obj/Debug/netcoreapp2.1/CentralDuplicatas.csproj.CopyComplete
+/home/thallis/Área de Trabalho/CentralDuplicatas/obj/Debug/netcoreapp2.1/Razor/Views/Certificate/certificate.g.cshtml.cs
+/home/thallis/Área de Trabalho/CentralDuplicatas/obj/Debug/netcoreapp2.1/Razor/Views/Termos/termos.g.cshtml.cs

@@ -12881,11 +12881,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/thallis/Área de Trabalho/CentralDuplicata/CentralDuplicatas.csproj",
+      "projectUniqueName": "/home/thallis/Área de Trabalho/CentralDuplicatas/CentralDuplicatas.csproj",
       "projectName": "CentralDuplicatas",
-      "projectPath": "/home/thallis/Área de Trabalho/CentralDuplicata/CentralDuplicatas.csproj",
+      "projectPath": "/home/thallis/Área de Trabalho/CentralDuplicatas/CentralDuplicatas.csproj",
       "packagesPath": "/home/thallis/.nuget/packages/",
-      "outputPath": "/home/thallis/Área de Trabalho/CentralDuplicata/obj/",
+      "outputPath": "/home/thallis/Área de Trabalho/CentralDuplicatas/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
