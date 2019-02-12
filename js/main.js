@@ -19,6 +19,10 @@ new Vue({
 });
 
 new Vue({
+	el: '#comofunciona'
+});
+
+new Vue({
 	el: '#termos',
 	data: {
 		termoschecked: true
