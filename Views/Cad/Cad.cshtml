@@ -5,14 +5,16 @@
 <script src="https://unpkg.com/vue"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
 
-<div class="mt6" id="cad">
+<div class="" id="cad">
   <navbarinternal></navbarinternal>
   
         <form>
             <div v-if="step === 1">
-              <div class="mt4">
+              <div>
           	<div id="cadastro" class="columns is-desktop">
-          		<div class="column is-10-touch is-offset-1-touch is-4-desktop is-offset-2-desktop flexd">
+              <div class="column is-4-desktop is-offset-2-desktop">
+          		<div style="min-height: 100vh" class="dflex1">
+              <div>
           			<titulocadastro class="" title="Olá!" subtitle="Preencha os campos para prosseguir."></titulocadastro>
           			<div class="field">
           				<label class="label">Escolha um tipo de documento</label>
@@ -68,8 +70,16 @@
                       </div>
                     </div>
                   </div>
+                  <div class="mt4 mb5 column is-paddingless is-10-touch is-4-desktop flexd">
+                  <button v-on:click.prevent="next()" class="button is-info">Próximo</button>
                   </div>
-          				<div class="column is-4 is-hidden-touch mt3">
+                  </div>
+                  </div>
+                  </div>
+
+          				<div class="column is-4 is-hidden-touch">
+                    <div style="min-height: 100vh" class="dflex1">
+                      <div>
           					<div class="infoc blue">
           						<div class="columns">
           							<div class="column is-2-desktop dflex1">
@@ -102,11 +112,10 @@
           											<span class="subtitlec">Posições de ativos custodiadas na CLBC e opções com proteção do FGC.</span>
           										</div>
           									</div>
+                            </div>
           								</div>
+                      </div>
           							</div>
-            <div class="mt5 mb5 column is-paddingless is-10-touch is-offset-1-touch is-4-desktop is-offset-2-desktop flexd">
-            <button v-on:click.prevent="next()" class="button is-info">Próximo</button>
-            </div>
         </div>
 
         <div v-if="step === 2">

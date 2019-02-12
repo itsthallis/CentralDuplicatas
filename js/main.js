@@ -24,23 +24,22 @@ const app = new Vue({
 		step:1,
 		fisica: true,
 		dados: {
-			telephones:{},
+			telephones:[{ddd: '', telephone: ''}],
 			emails: {},
 			entity:{},
 			userInfoModel:{
 				address: {},
 			},
-		},
-		modalTermosActive: false
+		}
 	},
 	methods:{
-	  prev: function() {
-		this.step--;
-	  },
-	  next:function() {
-		this.step++;
-	  },
-	  submit:function() {
+		prev: function() {
+			this.step--;
+		},
+		next:function() {
+			this.step++;
+		},
+		submit:function() {
 
 		var config = {
 			headers: { 
@@ -48,18 +47,18 @@ const app = new Vue({
 				'Authorization' : 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjlmODU5ODc4LTE1MDMtNDdiMS04YWJjLWZiNzliZGUwNTA1YyIsIm5iZiI6MTU0OTY0NDUxMCwiZXhwIjoxNTQ5NjQ4MTEwLCJpYXQiOjE1NDk2NDQ1MTB9.IcyTXSI3CRCLc6MwcBu-7cgq2BN-4rmIFbG4GjjeqeE',
 				'UAuthorization': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6WyIwNTQzNDE2MDk3NSIsIjA1NDM0MTYwOTc1Il0sImp0aSI6IjZhZDBmYWFlLWU1YjMtNDBlZi1hZGMzLTc1YzU1NGI1ZTQ3YSIsIm5iZiI6MTU0OTY0NDU0NCwiZXhwIjoxNTgxMTgwNTQ0LCJpYXQiOjE1NDk2NDQ1NDR9.SCRpFdvaazzbSLDeBZ-Des48eWQ33zNA_2igQMUjuUw'
 			},
-		  };
+			};
 
-		  console.log(this.dados);
+		console.log(this.dados);
 		axios.post('https://ieptb-api.azurewebsites.net/api/0.01/members/saveuser', this.dados, config)
 		.then(response => {
-	
+
 			alert("Cadastro efetuado com sucesso!!!");
 			
 		})
-	}
+		}
 
-	}
+		}
   });
 
 
