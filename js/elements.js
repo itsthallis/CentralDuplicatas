@@ -1,7 +1,26 @@
 Vue.component('card', {
-    props: ['title', 'subtitle'],
+   //  props: ['title', 'subtitle'],
+   props:{
+      title: '',
+      subtitle: ''
+   },
     template:
-    '<div class="column"> <div class="card"> <div class="card-content has-text-centered"> <div class="content"> <i class="fa fa-cube fa-4x" aria-hidden="true"></i> </div> </div> <header class="card-header"> <p class="card-header-title">{{ title }}</p> </header> <footer class="card-footer"> <p>{{ subtitle }}</p> </footer> </div> </div>'
+    `
+    <div class="column">
+      <div class="card">
+         <div class="card-content has-text-centered">
+               <div class="content mt4">
+                  <slot name="icon"></slot>
+               </div>
+         </div>
+         <header class="card-header dblock">
+            <slot name="image"></slot>
+            <p class="card-header-title">{{ title }}</p>
+         </header>
+         <footer class="card-footer"><p>{{ subtitle }}</p></footer>
+      </div>
+    </div>
+    `
 });
 
 Vue.component('searchbar', {

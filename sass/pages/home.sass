@@ -7,8 +7,15 @@
         border-radius: 5px
         background-color: #ddd
 
-#home .footer img
-    width: 150px
+#home .footer
+    img
+        width: 150px
+    .image
+        +mobile
+            display: inline-block
+    .entreemcontato
+        +mobile
+            display: block   
 
 #home .bar1
     font-size: 1.7rem
@@ -33,6 +40,8 @@
     p
         font-size: 1.5rem
         margin-top: 2vh
+    .notification
+        background-color: #eee
 
 
 // Iframe responsivo
@@ -83,3 +92,39 @@
         color: #fff !important
     +touch
         height: 100vh
+
+#destaques img
+    max-height: 50vh
+
+#comofunciona .card-header
+  +desktop
+    min-height: 20vh;
+  +touch
+    
+
+#comofunciona .card .card-footer
+  font-size: 1.2rem
+  +touch
+    min-height: 20vh;
+
+#bannerpremio
+    min-height: 30vh
+    font-size: 1.4rem
+    background: #36D1DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(-45deg, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(-45deg, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    z-index: -1
+    margin-top: -5vh
+    color: #fff
+    padding-bottom: 10vh
+    h1:first-child
+        padding-top: 10vh
+
+#formhome
+    .column:last-child
+        +mobile
+            margin-top: 10vh
+    .field .control:last-child
+        +mobile
+            display: flex
+            justify-content: center

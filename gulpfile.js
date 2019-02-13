@@ -20,6 +20,7 @@ gulp.task('sass', function () {
 gulp.task('scripts', function() {
     gulp.src([
         './node_modules/vue/dist/vue.js',
+        './node_modules/bulma-carousel/dist/js/bulma-carousel.js',
         './js/elements.js',
         './js/cadastro.js',
         './js/dashboard.js',

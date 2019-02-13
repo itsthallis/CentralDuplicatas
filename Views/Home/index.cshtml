@@ -2,7 +2,6 @@
     ViewData["Title"] = "Home";
 }
 
-
 <body>
     <div id="home">
     <navbarhome></navbarhome>
@@ -23,23 +22,38 @@
 
     <div class="bar1 blue dflex1 has-text-centered">Mais de 600 mil empresas recuperam seus créditos com os cartórios de protesto</div>
     
-    <div class="bar2 ligthgray dflex1">
-        <div class="container">
-            <h1 class="is-3 mb3 is-text-centered-touch"><b>Na mídia</b></h1>
-            <div class="columns">
-                <div class="column"><img src="http://via.placeholder.com/100x50" alt=""></div>
-                <div class="column"><img src="http://via.placeholder.com/100x50" alt=""></div>
-                <div class="column"><img src="http://via.placeholder.com/100x50" alt=""></div>
-                <div class="column"><img src="http://via.placeholder.com/100x50" alt=""></div>
-                <div class="column"><img src="http://via.placeholder.com/100x50" alt=""></div>
-                <div class="column"><img src="http://via.placeholder.com/100x50" alt=""></div>
+    <div id="namidia" class="container section">
+        <titulocadastro class="mb5 has-text-centered-touch" title="Na mídia" subtitle="Confira as últimas notícias sobre o IEPTB!"></titulocadastro>
+        <div class='carousel is-6 carousel-animated carousel-animate-slide'>
+            <div class='carousel-container'>
+                <div class='carousel-item is-active'>
+                    <a href="https://exame.abril.com.br/negocios/cartorios-de-protesto-sao-a-maneira-mais-rapida-de-cobrar-dividas/">
+                        <card subtitle="Cartórios de protesto são a maneira mais rápida de cobrar dívidas">
+                            <img style="height: 190px" slot="image" src="https://seeklogo.com/images/E/exame-logo-FE17774826-seeklogo.com.gif" alt="">
+                        </card>
+                    </a>
+                </div>
+                <div class='carousel-item'>
+                    <a href="https://cultura.estadao.com.br/blogs/direto-da-fonte/creditos-recuperados-pelo-poder-publico-crescem-285-no-trimestre/">
+                    <card subtitle="Créditos recuperados pelo poder público crescem 285% no trimestre">
+                        <img style="height: 190px" slot="image" src="https://upload.wikimedia.org/wikipedia/pt/3/32/Estadao_logo.png" alt="">
+                    </card></a>
+                </div>
+            </div>
+            <div class="carousel-navigation is-centered">
+                <div class="carousel-nav-left">
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                </div>
+                <div class="carousel-nav-right">
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </div>
             </div>
         </div>
     </div>
 
     <section id="tiles" class="section container dflex">
         <div>
-        <h2 class="title has-text-centered is-size-3">Tenha mais controle financeiro com nossas soluções.</h2>
+        <h2 class="title has-text-centered is-size-3 mb5">Tenha mais controle financeiro com nossas soluções.</h2>
         <div class="tile is-ancestor">
             <div class="tile">
                 <div class="tile is-parent">
@@ -75,30 +89,64 @@
         </div>
     </section>
 
-    <section class="mb6" id="comofunciona">
+    <section class="blue section has-text-centered-touch" id="destaques">
         <div class="container">
-        <titulocadastro class="mb5" title="Como funciona" subtitle="Conheça melhor o IEPTB"></titulocadastro>
+            <div class="columns">
+                <div class="column is-5 dflex1">
+                    <div>
+                        <img src="~/images/badge.png" alt="">
+                    </div>
+                </div>
+                <div class="column is-5 is-offset-1-desktop dflex1">
+                    <div>
+                        <h1 class="is-size-4"><b>Maior indice geral de recuperação de crédito do mercado: 85%</b></h1>
+                        <h1><i>65% em até 3 dias</i></h1>
+                        <p>Receba seus títulos sem pagamento com a ferramenta de maior índice de recuperação do mercado, graças a segurança, eficiência e rapidez dos cartórios de protesto e garanta o recebimento de suas vendas. </p>
+                        <br>
+                        <h1 class="is-size-4"><b>Gerencie seus recebíveis e controle suas finanças</b></h1>
+                        <p>Gerencie todas as suas duplicatas emitidas, liquidadas e protestadas. Tenha a disposição ferramentas de indicadores de desempenho. Gerencie seu negócio de forma eficiente e profissional.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mb6 container section" id="comofunciona">
+        <div class="container">
+        <titulocadastro class="mb5 has-text-centered-touch" title="Como funciona" subtitle="Conheça melhor o IEPTB"></titulocadastro>
             
             <div class="columns">
-                <div class="column">
-                    <card title="Acesso com certificado digital" subtitle="Mais Segurança e agilidade nas operações do dia a dia."></card>
+                <div class="column is-paddingless">
+                    <card title="Acesso com certificado digital" subtitle="Mais Segurança e agilidade nas operações do dia a dia.">
+                        <i slot="icon" class="fa fa-file-text-o fa-4x" aria-hidden="true"></i>
+                    </card>
                 </div>
-                <div class="column">
-                    <card title="Emissao de duplicatas digitas com importacao de NF-e" subtitle="  Confirmacao de integridade e validade da NF emitida."></card>
+                <div class="column is-paddingless">
+                    <card title="Emissão de duplicatas digitas com importação de NF-e" subtitle="  Confirmação de integridade e validade da NF emitida.">
+                        <i slot="icon" class="fa fa-file-o fa-4x" aria-hidden="true"></i>
+                    </card>
                 </div>
-                <div class="column">
-                    <card title="Geração de número único de registro" subtitle=" Registrado e com a segurança jurídica dos Cartorios de Proteto."></card>
+                <div class="column is-paddingless">
+                    <card title="Geração de número único de registro" subtitle=" Registrado e com a segurança jurídica dos Cartórios de Protesto.">
+                        <i slot="icon" class="fa fa-registered fa-4x" aria-hidden="true"></i>
+                    </card>
                 </div>
             </div>
             <div class="columns">
-                <div class="column">
-                    <card title="Comunicação eletronica de todos os atos" subtitle="Agilidade e transparencia de todas as operações realizadas."></card>
+                <div class="column is-paddingless">
+                    <card title="Comunicação eletrônica de todos os atos" subtitle="Agilidade e transparência de todas as operações realizadas.">
+                        <i slot="icon" class="fa fa-bullhorn fa-4x" aria-hidden="true"></i>
+                    </card>
                 </div>
-                <div class="column">
-                    <card title="Formalizacao de documentação Eletronica" subtitle="Transferencia de titularidade, endosso, aceite e gravame, tudo a um clique."></card>
+                <div class="column is-paddingless">
+                    <card title="Formalização de documentação Eletronica" subtitle="Transferência de titularidade, endosso, aceite e gravame, tudo a um clique.">
+                        <i slot="icon" class="fa fa-files-o fa-4x" aria-hidden="true"></i>
+                    </card>
                 </div>
-                <div class="column">
-                    <card title="Recuperacao de Credito" subtitle="Envio automatico das duplicatas não pagas para protesto com o menor custo do mercado e o maior indice de recuperacao de credito."></card>
+                <div class="column is-paddingless">
+                    <card title="Recuperação de Crédito" subtitle="Envio automatico das duplicatas não pagas para protesto com o menor custo do mercado e o maior indice de recuperação de crédito.">
+                        <i slot="icon" class="fa fa-credit-card fa-4x" aria-hidden="true"></i>
+                    </card>
                 </div>
             </div>
 
@@ -109,56 +157,85 @@
         <img class="image banner1" src="~/images/banner.png" alt="">
     </div>
 
-    <section class="container dflex1 mt5">
-        <form class="form-horizontal column is-8-desktop is-10-touch" >
+    <div class="has-text-centered-mobile" id="bannerpremio">
+        <div class="container">
+            <div class="column is-10-desktop is-offset-1-desktop is-10-touch is-offset-1-touch">
+                <div class="dflex1 mt4">
+                    <img style="height: 30vh" src="~/images/check.png" alt="">
+                </div>
+                <h1 class="is-size-3"><b>Faça como mais de 600 mil empresas, escolha os Cartórios de Protesto para alcançar o sucesso dos seus negócios.</b></h1>
+                <h1>Nós descomplicamos a gestão de recebíveis para você e entregamos tudo em um só serviço. Tenha toda a segurança jurídica que somente os cartórios de protesto pode oferecer. Gerencie seu capital com tranquilidade, sem precisar de intermediários.</h1>
+            </div>
+        </div>
+    </div>
+
+    <section id="formhome" class="container dflex1 mt6 has-text-centered-mobile">
+        <div class="columns">
+
+            <div class="column is-5 is-offset-1-touch is-10-touch is-centered-mobile">
             <!-- Form Name -->
             <h1 class="title">Fale conosco</h1>
+            <h1 class="is-size-5">Receba o nosso contato para saber mais sobre as soluções dos cartórios de protesto ou esclarecer qualquer dúvida.<h1>
+            <form class="form-horizontal is-paddingless column is-10-touch is-offset-1-touch" >
 
-            <!-- Text input-->
-            <div class="field mt2">
-            <div class="control">
-                <input id="textinput-0" name="textinput-0" type="text" placeholder="Nome" class="input ">
-            </div>
+                <!-- Text input-->
+                <div class="field mt2">
+                <div class="control">
+                    <input id="textinput-0" name="textinput-0" type="text" placeholder="Nome" class="input ">
+                </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="field mt2">
+                <div class="control">
+                    <input id="textinput-1" name="textinput-1" type="text" placeholder="Telefone" class="input ">
+                </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="field mt2">
+                <div class="control">
+                    <input id="textinput-3" name="textinput-3" type="text" placeholder="E-mail" class="input ">
+                </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="field mt2">
+                <div class="control">
+                    <input id="textinput-2" name="textinput-2" type="text" placeholder="Assunto" class="input ">
+                </div>
+                </div>
+
+                <!-- Textarea -->
+                <div class="field mt2">
+                <div class="control">                     
+                    <textarea class="textarea" id="textarea-0" name="textarea-0" placeholder="Mensagem"></textarea>
+                </div>
+                </div>
+
+                <!-- Button -->
+                <div class="field mt2">
+                <div class="control">
+                    <button id="singlebutton-0" name="singlebutton-0" class="button is-info is-medium is-pulled-right">Enviar</button>
+                </div>
+                </div>
+            </form>
             </div>
 
-            <!-- Text input-->
-            <div class="field mt2">
-            <div class="control">
-                <input id="textinput-1" name="textinput-1" type="text" placeholder="Telefone" class="input ">
-            </div>
-            </div>
-
-            <!-- Text input-->
-            <div class="field mt2">
-            <div class="control">
-                <input id="textinput-3" name="textinput-3" type="text" placeholder="E-mail" class="input ">
-            </div>
+            <div class="column is-5 is-10-touch is-offset-1-touch is-offset-1 is-centered-mobile">
+                <h1 class="title">Ainda tem dúvida?</h1>
+                <h1 class="is-size-5">Nosso time de especialistas vai te ajudar a saber mais sobre os cartórios de protesto e suas vantagens para aplicação ao seu negócio.</h1>
+                <br>
+                * Entraremos em contato com você.<br><br>
+                * Entenda todas as tarifas e veja por que utilizar os cartórios de protesto é o meio mais barato para fazer a gestão de recebíveis e recuperação de crédito.<br><br>
+                * Saiba como podemos impactar o seu negócio.<br><br>
+                * O nosso contato é sem compromisso. Você só vai fechar quando tiver todas as suas dúvidas esclarecidas.<br>
             </div>
 
-            <!-- Text input-->
-            <div class="field mt2">
-            <div class="control">
-                <input id="textinput-2" name="textinput-2" type="text" placeholder="Assunto" class="input ">
-            </div>
-            </div>
-
-            <!-- Textarea -->
-            <div class="field mt2">
-            <div class="control">                     
-                <textarea class="textarea" id="textarea-0" name="textarea-0" placeholder="Mensagem"></textarea>
-            </div>
-            </div>
-
-            <!-- Button -->
-            <div class="field mt2">
-            <div class="control">
-                <button id="singlebutton-0" name="singlebutton-0" class="button is-info is-medium is-pulled-right">Enviar</button>
-            </div>
-            </div>
-        </form>
+        </div>
     </section>
 
-    <section class="section footer mt6 hero is-bold is-light">
+    <section class="section footer mt6 hero is-bold is-light has-text-centered-mobile">
 
         <div class="container">
             
@@ -169,24 +246,24 @@
                     <div class="columns">
                         <div class="column is-10-tablet">
                             <h1 class="subtitle mt3"><b>Sobre o IEPTB</b></h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sint maiores commodi adipisci odit numquam modi perspiciatis quam. Modi quam placeat ipsum quibusdam quis repellendus dolore, ad consequuntur iure voluptates!</p>
+                            <p>O IEPTB - Instituto de Estudos de Protesto de Titulos do Brasil - É a entidade de classe representante dos Cartórios de Protestos do Brasil que tem por finalidade efetuar pesquisas, estudos e desenvolver aprimoramentos para a atividade do protesto, com o intuito de melhor atender o público usuário. </p>
                         </div>
                     </div>
                 </div>
-                <div class="column">
+                <div>
                     <h1 class="subtitle mt3"><b>Entre em contato</b></h1>
-                    <div class="mt1 dflex">
-                    <i class="fa fw fa-map-marker is-pulled-left"></i>
+                    <div class="entreemcontato mt1 dflex">
+                    <i class="fa fw fa-map-marker is-pulled-left-desktop"></i>
                     <p>&nbsp;&nbsp;Rua Quinze de Novembro, 184 - 4º Andar - São Paulo - SP</p>
                     </div>
 
-                    <div class="mt1 dflex">
-                    <i class="fa fw fa-phone is-pulled-left"></i>
+                    <div class="entreemcontato mt1 dflex">
+                    <i class="fa fw fa-phone is-pulled-left-desktop"></i>
                     <p>&nbsp;&nbsp;0800 878 2704</p>
                     </div>
 
-                    <div class="mt1 dflex">
-                    <i class="fa fw fa-envelope is-pulled-left"></i>
+                    <div class="entreemcontato mt1 dflex">
+                    <i class="fa fw fa-envelope is-pulled-left-desktop"></i>
                     <p>&nbsp;&nbsp;empresas@cartoriosdeprotesto.org.br</p>
                     </div>
                 </div>
@@ -198,4 +275,5 @@
         </div>
     </section>
     </div>
+    
 </body>
