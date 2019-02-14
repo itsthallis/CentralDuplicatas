@@ -75,8 +75,9 @@ Vue.component('navbarhome', {
     `
    <header>
       <nav id="nav" class="navbar scroll is-fixed-top" role="navigation" aria-label="main navigation">
+      <div class="container">
       <div class="navbar-brand">
-         <a class="navbar-item" href="#">
+         <a class="navbar-item" href="./../home">
             <img src="/images/logo.png" height="100%">
          </a>
 
@@ -100,6 +101,7 @@ Vue.component('navbarhome', {
                </div>
             </div>
          </div>
+         </div>
       </div>
       </nav>
    </header>
@@ -115,31 +117,38 @@ Vue.component('navbarinternal', {
     <div class="container">
     
     <div class="navbar-brand">
-    <a class="navbar-item" href="https://bulma.io">
-    <img src="/images/logo.png" alt="" height="100%">
-    </a>
+      <a class="navbar-item" href="./../home">
+         <img src="/images/logo.png" alt="" height="100%">
+      </a>
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+         <span aria-hidden="true"></span>
+         <span aria-hidden="true"></span>
+         <span aria-hidden="true"></span>
+      </a>
     </div>
 
-   <div class="navbar-menu">
-     <div class="navbar-end">
-       <div class="navbar-item has-dropdown is-hoverable">
-         <a v-on:mouseover="mouseover" v-on:mouseleave="mouseleave" id="menulink" class="navbar-link">
-           Menu
-         </a>
-         <div class="navbar-dropdown is-right">
-           <a href="./../Login/" class="navbar-item">
-             Login
-           </a>
-           <a href="./../Cadastro/" class="navbar-item">
-           Cadastro
-           </a>
-           <a href="./../Dashboard/" class="navbar-item">
-           Minha conta
-           </a>
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-end">
+         <div class="navbar-item has-dropdown is-hoverable">
+            <a v-on:mouseover="mouseover" v-on:mouseleave="mouseleave" id="menulink" class="navbar-link is-hidden-touch">
+               Menu
+            </a>
+            <div class="navbar-dropdown">
+               <a href="./../Login/" class="navbar-item">
+                  Login
+               </a>
+               <a href="./../Cadastro/" class="navbar-item">
+               Cadastro
+               </a>
+               <a href="./../Dashboard/" class="navbar-item">
+               Minha conta
+               </a>
+            </div>
+            </div>
          </div>
-        </div>
-        </div>
+      </div>
     </div>
+
     </div>
    </nav>
 </header>

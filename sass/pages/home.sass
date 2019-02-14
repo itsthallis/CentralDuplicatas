@@ -43,6 +43,13 @@
     .notification
         background-color: #eee
 
+#comofunciona .tile
+    background-color: #eee
+    p
+        min-height: 10vh
+    i
+        min-height: 10vh
+
 
 // Iframe responsivo
 
@@ -96,16 +103,20 @@
 #destaques img
     max-height: 50vh
 
-#comofunciona .card-header
-  +desktop
-    min-height: 20vh;
-  +touch
+#comofunciona
+    .card-header
+        +desktop
+            min-height: 20vh
     
 
-#comofunciona .card .card-footer
-  font-size: 1.2rem
-  +touch
-    min-height: 20vh;
+#comofunciona
+    .card .card-footer
+        font-size: 1.2rem
+        +touch
+            min-height: 20vh
+    p
+        font-size: 1.3rem
+
 
 #bannerpremio
     min-height: 30vh
