@@ -24,7 +24,8 @@ gulp.task('scripts', function() {
         './js/elements.js',
         './js/cadastro.js',
         './js/dashboard.js',
-        './js/main.js'
+        './js/main.js',
+        './js/gaintime.br-validator.min.js'
     ])
     .pipe(concat('site.js'))
     // .pipe(uglify())

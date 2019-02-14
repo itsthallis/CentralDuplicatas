@@ -3,10 +3,15 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <UserSecretsId>aspnet-CentralDuplicatas-AA9EB663-49DE-43B5-AD15-E51FA943EEC4</UserSecretsId>
+    <RuntimeFrameworkVersion>2.1.1</RuntimeFrameworkVersion>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <RuntimeIdentifier>ubuntu-x64</RuntimeIdentifier>
+    
   </PropertyGroup>
 
   <ItemGroup>
     <None Update="app.db" CopyToOutputDirectory="PreserveNewest" />
+    <Folder Include="wwwroot\" />
   </ItemGroup>
 
   <ItemGroup>

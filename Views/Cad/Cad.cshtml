@@ -28,11 +28,11 @@
                                 </div>
                                 <div v-if="fisica">
                                     <label class="label mt3">CPF</label>
-                                    <input class="input" v-model="dados.document">
+                                    <input class="input" id="cpf" type="text" name="cpf" data-validate="cpf" placeholder="000.000.000-00" maxlength="14" v-model="dados.document">
                                     <label class="label mt3">Nome Completo</label>
-                                    <input class="input" v-model="dados.fullName">
+                                    <input class="input" data-validate="text" v-model="dados.fullName">
                                     <label class="label mt3">Data de nascimento</label>
-                                    <input class="input" style="margin-bottom: 0.75rem" v-model="dados.birthDate">
+                                    <input class="input" data-validate="date" style="margin-bottom: 0.75rem" v-model="dados.birthDate">
                                 </div>
                                 <div v-else>
                                     <label class="label mt3">CNPJ</label>
