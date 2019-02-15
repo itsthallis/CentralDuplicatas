@@ -45,16 +45,25 @@
     p
         font-size: 1.5rem
         margin-top: 2vh
+        +touch
+            font-size: 1rem
     .notification
         background-color: #eee
 
-#comofunciona .tile
-    // background-color: #fff
-    border: solid #ddd 1px
-    p
-        min-height: 10vh
+#comofunciona
+    .tile
+        border: solid #ddd 1px
+    img
+        +mobile
+            height: 10vh
+    article p
+        min-height: 7vh
+        +touch
+            font-size: 1rem
     i
-        min-height: 10vh
+        min-height: 7vh
+        +mobile
+            font-size: 1rem
 
 
 // Iframe responsivo
@@ -107,7 +116,10 @@
         height: 100vh
 
 #destaques img
-    max-height: 50vh
+    max-height: 40vh
+    +mobile
+        max-height: 25vh
+
 
 #comofunciona
     .card-header
