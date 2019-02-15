@@ -32,6 +32,7 @@ new Vue({
 const app = new Vue({
 	el:'#cad',
 	data: {
+		modal:true,
 		cep: null,
         data: null,
         message: null,

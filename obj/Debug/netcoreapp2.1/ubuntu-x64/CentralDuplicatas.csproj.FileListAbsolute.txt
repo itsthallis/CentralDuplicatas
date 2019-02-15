@@ -84,3 +84,4 @@
 /home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.dll
 /home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.pdb
 /home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.csproj.CopyComplete
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Cad/CadJuridico.g.cshtml.cs

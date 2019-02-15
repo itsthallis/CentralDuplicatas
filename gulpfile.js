@@ -25,6 +25,7 @@ gulp.task('scripts', function() {
         './js/cadastro.js',
         './js/dashboard.js',
         './js/main.js',
+        './js/cadjuridico.js',
         './js/gaintime.br-validator.min.js'
     ])
     .pipe(concat('site.js'))
