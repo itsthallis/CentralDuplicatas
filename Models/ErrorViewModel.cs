@@ -1,5 +1,3 @@
-using System;
-
 namespace CentralDuplicatas.Models
 {
     public class ErrorViewModel
