@@ -1,3 +1,10 @@
+@{
+    ViewData["Title"] = "Cadastro jurídico";
+}
+
+<script src="https://unpkg.com/vue"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+
 <section class="hero infoc blue">
   <div class="hero-body">
     <div class="container has-text-centered">
@@ -11,7 +18,7 @@
       <div class="container">
         <ul><li class="tab is-active" onclick="openTab(event,'WebDev')">
      <a>Dados da Empresa</a></li>
-          <li class="tab" onclick="openTab(event,'WebAud')"><a>Dados do Administrador</a></li>
+          <li class="tab" onclick="openTab(event,'cadastroadministrador')"><a>Dados do Administrador</a></li>
           <li class="tab" onclick="openTab(event,'Support')"><a>Dados do Usuário</a></li>
         </ul>
       </div>
@@ -51,18 +58,20 @@
                                     <label class="label mt1">Email</label>
                                     <input class="input" v-model="dados.emails.address" label="Email">
                                    <div class = "columns" v-for="(telephones, index) in dados.telephones">
-                                    <div class = "column is-2">
-                                        <label class="label mt1">DDD</label>
-                                        <input class="input" v-model="telephones.ddd">
+                                        <div class = "column is-2">
+                                            <label class="label mt1">DDD</label>
+                                            <input class="input" v-model="telephones.ddd">
+                                        </div>
+                                        <div class = "column is-6">
+                                            <label class="label mt1">Telefone</label>
+                                            <input type="text" data-validate="brPhone" class="input" v-model="telephones.number">
+                                        </div>
+                                        <div class = "column is-4">
+                                            <label class="label mt1">Telefone</label>
+                                            <button class="button is-info" v-on:click.prevent="deleteUser(index)">Deletar</button>
+                                            <button  class="button is-info" v-on:click.prevent="addUser">Adicionar</button>
+                                        </div>
                                     </div>
-                                    <div class = "column is-10">
-                                    <label class="label mt1">Telefone</label>
-                                        <input type="text" data-validate="brPhone" class="input" v-model="telephones.number">
-                                    </div>
-                                        <button class="button is-info" v-on:click.prevent="deleteUser(index)"> delete</button>
-
-                                            <button  class="button is-info" v-on:click.prevent="addUser">Add new</button> </button>
-                                                </div>
                                 </div>
                            
                                 <div class="mt4 mb5 column is-paddingless is-10-touch is-4-desktop flexd">
@@ -135,10 +144,10 @@
                                 <input class="input" v-model="dados.userInfoModel.address.complement">
                             </div>
                         </form>
-                        <div class="mt5 mb5 column is-paddingless is-10-touch is-offset-1-touch is-4-desktop is-offset-2-desktop flexd">
-                <button v-on:click.prevent="prev()" class="button is-light">Anterior</button>
-                <button v-on:click.prevent="submit()" class="button is-info">Salvar</button>
-                    </div>
+                        <div class="mt5 mb5 column is-paddingless is-10-touch is-offset-1-touch is-4-desktop flexd">
+                            <button v-on:click.prevent="prev()" class="button is-light">Anterior</button>
+                            <button v-on:click.prevent="submit()" class="button is-info">Salvar</button>
+                        </div>
                 </div>
                 
             </div>
@@ -149,8 +158,8 @@
 </div>
 </div>
 </div>
-  <div id="WebAud" class="content-tab" style="display:none">
-<div class="" id="cad">
+  <div id="cadastroadministrador" class="content-tab" style="display:none">
+<div class="" id="">
     <navbarinternal></navbarinternal>
     <form>
         <div v-if="step === 1">
@@ -189,15 +198,17 @@
                                         <label class="label mt1">DDD</label>
                                         <input class="input" v-model="telephones.ddd">
                                     </div>
-                                    <div class = "column is-10">
-                                    <label class="label mt1">Telefone</label>
+                                    <div class = "column is-6">
+                                        <label class="label mt1">Telefone</label>
                                         <input type="text" data-validate="brPhone" class="input" v-model="telephones.number">
                                     </div>
-                                        <button class="button is-info" v-on:click.prevent="deleteUser(index)"> delete</button>
-
-                                            <button  class="button is-info" v-on:click.prevent="addUser">Add new</button> </button>
-                                                </div>
-                                                 <div class="control">
+                                    <div class = "column is-4">
+                                        <label class="label mt1">Telefone</label>
+                                        <button class="button is-info" v-on:click.prevent="deleteUser(index)">Deletar</button>
+                                        <button  class="button is-info" v-on:click.prevent="addUser">Adicionar</button>
+                                    </div>
+                                    </div>
+                                        <div class="control">
                             <div class="checkradio100 mt1">
                                 <input class="is-checkrbox is-info" id="exampleCheckbox19" type="checkbox" name="exampleCheckbox">
                                 <label for="exampleCheckbox19">Receber notificações por SMS</label>
@@ -281,7 +292,7 @@
                                 <label for="exampleCheckbox19">Concordo em receber notificações por e-mail</label>
                             </div>
                         </div>
-                        <div class="mt5 mb5 column is-paddingless is-10-touch is-offset-1-touch is-4-desktop is-offset-2-desktop flexd">
+                        <div class="mt5 mb5 column is-paddingless is-10-touch is-offset-1-touch is-4-desktop flexd">
                 <button v-on:click.prevent="prev()" class="button is-light">Anterior</button>
                 <button v-on:click.prevent="submit()" class="button is-info">Salvar</button>
                     </div>
@@ -294,7 +305,7 @@
 </div>
 </div>
   <div id="Support" class="content-tab" style="display:none">
-      <div class="" id="cad">
+      <div class="" id="">
     <navbarinternal></navbarinternal>
     <form>
         <div v-if="step === 1">

@@ -22,6 +22,7 @@ gulp.task('scripts', function() {
         './node_modules/vue/dist/vue.js',
         './node_modules/bulma-carousel/dist/js/bulma-carousel.js',
         './js/elements.js',
+        './js/cadastroadministrador.js',
         './js/cadastro.js',
         './js/dashboard.js',
         './js/main.js',
