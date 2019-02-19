@@ -23,6 +23,11 @@ new Vue({
 });
 
 new Vue({
+	el: '#navbarcad'
+});
+
+
+new Vue({
 	el: '#termos',
 	data: {
 		termoschecked: true

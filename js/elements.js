@@ -23,6 +23,47 @@ Vue.component('card', {
     `
 });
 
+Vue.component('infocadastro', {
+    template:
+    `
+         <div class="column mt5 is-4 is-hidden-touch">
+               <div>
+                  <div class="infoc blue">
+                     <div class="columns">
+                           <div class="column is-2-desktop dflex1">
+                              <i class="fa fa-cube fa-2x"></i>
+                           </div>
+                           <div class="column is-10-desktop">
+                              <span class="titlec">Tenha em mãos seu documento de identidade (RG ou CNH)</span>
+                              <br>
+                           </div>
+                     </div>
+                  </div>
+                  <div class="infoc">
+                     <span class="titlec">Suporte Diário</span>
+                     <br>
+                     <span class="subtitlec">Time de analistas dedicado a auxiliar em suas operações.</span>
+                  </div>
+                  <div class="infoc">
+                     <span class="titlec">Plataformas Especializadas</span>
+                     <br>
+                     <span class="subtitlec">As melhores plataformas para diferentes perfis de trader.</span>
+                  </div>
+                  <div class="infoc">
+                     <span class="titlec">Melhor Custo x Benefício</span>
+                     <br>
+                     <span class="subtitlec">Para o trader que opera frequentemente.</span>
+                  </div>
+                  <div class="infoc">
+                     <span class="titlec">Segurança para Investir</span>
+                     <br>
+                     <span class="subtitlec">Posições de ativos custodiadas na CLBC e opções com proteção do FGC.</span>
+                  </div>
+               </div>
+      </div>
+    `
+});
+
 Vue.component('searchbar', {
     template:
     '<div class="column is-12"> <div class="columns dflex3"> <div class="column is-6-tablet"> <div class="columns"> <div class="column is-11"> <input id="searchbar" type="search" placeholder="Pesquisar" /> </div> <div class="column is-1 dflex1"> <span class="icon"><i id="search-btn" class="fa fa-search fa-2x"></i></span> </div> </div> </div> </div> </div>'
