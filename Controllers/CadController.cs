@@ -8,7 +8,11 @@ namespace CentralDuplicatas.Controllers
 
     public class CadController : Controller
     {
-        public IActionResult Cad()
+        // public IActionResult Cad()
+        // {
+        //     return View();
+        // }
+         public IActionResult CadJuridico()
         {
             return View();
         }

@@ -40,4 +40,98 @@
 /home/thallis/Área de Trabalho/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.dll
 /home/thallis/Área de Trabalho/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.pdb
 /home/thallis/Área de Trabalho/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.csproj.CopyComplete
+<<<<<<< HEAD
 /home/thallis/Área de Trabalho/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Dashboard/Dashboard.g.cshtml.cs
+=======
+/home/heloisa/Imagens/CentralDuplicatas/bin/Debug/netcoreapp2.1/ubuntu-x64/app.db
+/home/heloisa/Imagens/CentralDuplicatas/bin/Debug/netcoreapp2.1/ubuntu-x64/libhostpolicy.so
+/home/heloisa/Imagens/CentralDuplicatas/bin/Debug/netcoreapp2.1/ubuntu-x64/libhostfxr.so
+/home/heloisa/Imagens/CentralDuplicatas/bin/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas
+/home/heloisa/Imagens/CentralDuplicatas/bin/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.deps.json
+/home/heloisa/Imagens/CentralDuplicatas/bin/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.runtimeconfig.json
+/home/heloisa/Imagens/CentralDuplicatas/bin/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.runtimeconfig.dev.json
+/home/heloisa/Imagens/CentralDuplicatas/bin/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.dll
+/home/heloisa/Imagens/CentralDuplicatas/bin/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.pdb
+/home/heloisa/Imagens/CentralDuplicatas/bin/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.Views.dll
+/home/heloisa/Imagens/CentralDuplicatas/bin/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.Views.pdb
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.csprojAssemblyReference.cache
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.csproj.CoreCompileInputs.cache
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.RazorAssemblyInfo.cache
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.RazorAssemblyInfo.cs
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/UserSecretsAssemblyInfo.cs
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.AssemblyInfoInputs.cache
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.AssemblyInfo.cs
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.TagHelpers.input.cache
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.TagHelpers.output.cache
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.RazorCoreGenerate.cache
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Areas/Identity/Pages/_ViewStart.g.cshtml.cs
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Cad/Cad.g.cshtml.cs
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Certificate/certificate.g.cshtml.cs
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Dashboard/Dashboard.g.cshtml.cs
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Home/index.g.cshtml.cs
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Home/Privacy.g.cshtml.cs
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Login/login.g.cshtml.cs
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Shared/Error.g.cshtml.cs
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Shared/_Layout.g.cshtml.cs
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Shared/_LoginPartial.g.cshtml.cs
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Termos/termos.g.cshtml.cs
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Xmlimport/Xmlimport.g.cshtml.cs
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/_ViewImports.g.cshtml.cs
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/_ViewStart.g.cshtml.cs
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.RazorTargetAssemblyInfo.cache
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.RazorTargetAssemblyInfo.cs
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.Views.pdb
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.dll
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.pdb
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.csproj.CopyComplete
+/home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Cad/CadJuridico.g.cshtml.cs
+<<<<<<< Updated upstream
+/home/thallis/Downloads/CentralDuplicata/bin/Debug/netcoreapp2.1/ubuntu-x64/app.db
+/home/thallis/Downloads/CentralDuplicata/bin/Debug/netcoreapp2.1/ubuntu-x64/libhostpolicy.so
+/home/thallis/Downloads/CentralDuplicata/bin/Debug/netcoreapp2.1/ubuntu-x64/libhostfxr.so
+/home/thallis/Downloads/CentralDuplicata/bin/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas
+/home/thallis/Downloads/CentralDuplicata/bin/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.deps.json
+/home/thallis/Downloads/CentralDuplicata/bin/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.runtimeconfig.json
+/home/thallis/Downloads/CentralDuplicata/bin/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.runtimeconfig.dev.json
+/home/thallis/Downloads/CentralDuplicata/bin/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.dll
+/home/thallis/Downloads/CentralDuplicata/bin/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.pdb
+/home/thallis/Downloads/CentralDuplicata/bin/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.Views.dll
+/home/thallis/Downloads/CentralDuplicata/bin/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.Views.pdb
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.csprojAssemblyReference.cache
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.csproj.CoreCompileInputs.cache
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.RazorAssemblyInfo.cache
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.RazorAssemblyInfo.cs
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/UserSecretsAssemblyInfo.cs
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.AssemblyInfoInputs.cache
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.AssemblyInfo.cs
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.TagHelpers.input.cache
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.TagHelpers.output.cache
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.RazorCoreGenerate.cache
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Areas/Identity/Pages/_ViewStart.g.cshtml.cs
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Cad/Cad.g.cshtml.cs
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Cad/CadJuridico.g.cshtml.cs
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Certificate/certificate.g.cshtml.cs
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Dashboard/Dashboard.g.cshtml.cs
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Home/index.g.cshtml.cs
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Home/Privacy.g.cshtml.cs
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Login/login.g.cshtml.cs
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Shared/Error.g.cshtml.cs
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Shared/_Layout.g.cshtml.cs
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Shared/_LoginPartial.g.cshtml.cs
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Termos/termos.g.cshtml.cs
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Xmlimport/Xmlimport.g.cshtml.cs
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/_ViewImports.g.cshtml.cs
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/_ViewStart.g.cshtml.cs
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.RazorTargetAssemblyInfo.cache
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.RazorTargetAssemblyInfo.cs
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.Views.pdb
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.dll
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.pdb
+/home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.csproj.CopyComplete
+>>>>>>> Stashed changes
+>>>>>>> cadastro
+/home/thallis/Área de Trabalho/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Cad/CadJuridico.g.cshtml.cs

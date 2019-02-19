@@ -26,7 +26,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div v-if="fisica">
+                                <div v-if="fisica">                                                           
                                     <label class="label mt3">CPF</label>
                                     <input class="input" id="cpf" type="text" name="cpf" data-validate="cpf" placeholder="000.000.000-00" maxlength="14" v-model="dados.document">
                                     <label class="label mt3">Nome Completo</label>
@@ -36,36 +36,30 @@
                                 </div>
                                 <div v-else>
                                     <label class="label mt3">CNPJ</label>
-                                    <input class="input" v-model="dados.entity.cnpj">
+                                    <input class="input" id="cnpj" type="text" name="cnpj" data-validate="cnpj" placeholder="00.000.000/0000-00"v-model="dados.entity.cnpj">
                                     <label class="label mt3">Razão Social</label>
-                                    <input class="input" v-model="dados.entity.fullname">
+                                    <input class="input"data-validate="text" v-model="dados.entity.fullname">
                                     <label class="label mt3">Nome Fantasia</label>
-                                    <input class="input" style="margin-bottom: 0.75rem" v-model="dados.entity.aliasname">
+                                    <input class="input"  data-validate="text" style="margin-bottom: 0.75rem" v-model="dados.entity.aliasname">
                                 </div>
                                 <div>
                                     <label class="label mt1">Email</label>
                                     <input class="input" v-model="dados.emails.address" label="Email">
-                                    <div class="columns">
-                                        <div class="column is-2">
-                                            <label class="label mt2">DDD</label>
-                                            <input class="input" v-model="dados.telephones.ddd">
-                                        </div>
-                                        <div class="column is-10">
-                                            <label class="label mt2">Telefone</label>
-                                            <input class="input" v-model="dados.telephones.number">
-                                        </div>
+                                   <div class = "columns" v-for="(telephones, index) in dados.telephones">
+                                    <div class = "column is-2">
+                                        <label class="label mt1">DDD</label>
+                                        <input class="input" v-model="telephones.ddd">
                                     </div>
-                                    <div class="columns">
-                                        <div class="column is-2">
-                                            <label class="label mt1">DDD</label>
-                                            <input class="input" v-model="dados.telephones.ddd">
-                                        </div>
-                                        <div class="column is-10">
-                                            <label class="label mt1">Celular</label>
-                                            <input class="input" v-model="dados.telephones.number">
-                                        </div>
+                                    <div class = "column is-10">
+                                    <label class="label mt1">Telefone</label>
+                                        <input type="text" data-validate="brPhone" class="input" v-model="telephones.number">
                                     </div>
+                                        <button class="button is-info" v-on:click.prevent="deleteUser(index)"> delete</button>
+
+                                            <button  class="button is-info" v-on:click.prevent="addUser">Add new</button> </button>
+                                                </div>
                                 </div>
+                           
                                 <div class="mt4 mb5 column is-paddingless is-10-touch is-4-desktop flexd">
                                     <button v-on:click.prevent="next()" class="button is-info">Próximo</button>
                                 </div>

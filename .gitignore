@@ -6,3 +6,5 @@ node_modules/
 *.log
 wwwroot/css/site.css
 wwwroot/js/site.js
+
+bin/
