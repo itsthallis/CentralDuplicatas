@@ -85,6 +85,7 @@
 /home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.pdb
 /home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.csproj.CopyComplete
 /home/heloisa/Imagens/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/Cad/CadJuridico.g.cshtml.cs
+<<<<<<< Updated upstream
 /home/thallis/Downloads/CentralDuplicata/bin/Debug/netcoreapp2.1/ubuntu-x64/app.db
 /home/thallis/Downloads/CentralDuplicata/bin/Debug/netcoreapp2.1/ubuntu-x64/libhostpolicy.so
 /home/thallis/Downloads/CentralDuplicata/bin/Debug/netcoreapp2.1/ubuntu-x64/libhostfxr.so
@@ -129,3 +130,5 @@
 /home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.dll
 /home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.pdb
 /home/thallis/Downloads/CentralDuplicata/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.csproj.CopyComplete
+=======
+>>>>>>> Stashed changes

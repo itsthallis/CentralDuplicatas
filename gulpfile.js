@@ -23,6 +23,7 @@ gulp.task('scripts', function() {
         './node_modules/bulma-carousel/dist/js/bulma-carousel.js',
         './js/elements.js',
         './js/cadastroadministrador.js',
+        './js/cadastrousuarios.js',
         './js/cadastro.js',
         './js/dashboard.js',
         './js/main.js',

@@ -1,9 +1,11 @@
+
 @{
     ViewData["Title"] = "Cadastro jurídico";
 }
 
 <script src="https://unpkg.com/vue"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+
 
 <section class="hero infoc blue">
   <div class="hero-body">
@@ -19,7 +21,7 @@
         <ul><li class="tab is-active" onclick="openTab(event,'WebDev')">
      <a>Dados da Empresa</a></li>
           <li class="tab" onclick="openTab(event,'cadastroadministrador')"><a>Dados do Administrador</a></li>
-          <li class="tab" onclick="openTab(event,'Support')"><a>Dados do Usuário</a></li>
+          <li class="tab" onclick="openTab(event,'cadastrousuarios')"><a>Dados do Usuário</a></li>
         </ul>
       </div>
     </nav>
@@ -72,6 +74,7 @@
                                             <button  class="button is-info" v-on:click.prevent="addUser">Adicionar</button>
                                         </div>
                                     </div>
+                        
                                 </div>
                            
                                 <div class="mt4 mb5 column is-paddingless is-10-touch is-4-desktop flexd">
@@ -148,6 +151,7 @@
                             <button v-on:click.prevent="prev()" class="button is-light">Anterior</button>
                             <button v-on:click.prevent="submit()" class="button is-info">Salvar</button>
                         </div>
+
                 </div>
                 
             </div>
@@ -158,8 +162,7 @@
 </div>
 </div>
 </div>
-  <div id="cadastroadministrador" class="content-tab" style="display:none">
-<div class="" id="">
+<div id="cadastroadministrador" class="content-tab" style="display:none">
     <navbarinternal></navbarinternal>
     <form>
         <div v-if="step === 1">
@@ -184,12 +187,12 @@
                                      <div class = "columns">
                                           <div class = "column is-4">
                                     <div class="checkradio100 mt1">
-                                <input class="is-checkbox is-info" id="exampleCheckbox19" type="checkbox" name="exampleCheckbox">
+                                <input class="is-checkradio is-info" id="exampleCheckbox19" type="checkbox" name="exampleCheckbox">
                                 <label for="exampleCheckbox19">Receber notificações por e-mail</label></div>
                                     </div>
                                      <div class = "column is-6">
                             <div class="checkradio100 mt1">
-                                <input class="is-checkbox is-info" id="exampleCheckbox19" type="checkbox" name="exampleCheckbox">
+                                <input class="is-checkradio is-info" id="exampleCheckbox19" type="checkbox" name="exampleCheckbox">
                                 <label for="exampleCheckbox19">Receber Newsletter</label></div>
                                 </div>
                             </div>
@@ -198,19 +201,40 @@
                                         <label class="label mt1">DDD</label>
                                         <input class="input" v-model="telephones.ddd">
                                     </div>
+
                                     <div class = "column is-6">
                                         <label class="label mt1">Telefone</label>
                                         <input type="text" data-validate="brPhone" class="input" v-model="telephones.number">
                                     </div>
                                     <div class = "column is-4">
-                                        <label class="label mt1">Telefone</label>
+                                <!-- 
+ <div v-if="modal" class="modal is-active">
+      <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">Termo</p>
+          <button v-on:click="modal = !modal" class="delete" aria-label="close"></button>
+        </header>
+        <section class="modal-card-body">
+          <ul>
+            <li v-for="c in certificates"> {{c.subjectName}}</li>
+          </ul>
+        </section>
+        <footer class="modal-card-foot">
+          <button class="button is-success">Save changes</button>
+          <button class="button">Cancel</button>
+        </footer>
+      </div>
+    </div>
+</div> -->        <label class="label mt1">Telefone</label>
                                         <button class="button is-info" v-on:click.prevent="deleteUser(index)">Deletar</button>
                                         <button  class="button is-info" v-on:click.prevent="addUser">Adicionar</button>
                                     </div>
                                     </div>
                                         <div class="control">
+
                             <div class="checkradio100 mt1">
-                                <input class="is-checkrbox is-info" id="exampleCheckbox19" type="checkbox" name="exampleCheckbox">
+                                <input class="is-checkradio is-info" id="exampleCheckbox19" type="checkbox" name="exampleCheckbox">
                                 <label for="exampleCheckbox19">Receber notificações por SMS</label>
                             </div>
                         </div>
@@ -292,7 +316,9 @@
                                 <label for="exampleCheckbox19">Concordo em receber notificações por e-mail</label>
                             </div>
                         </div>
+
                         <div class="mt5 mb5 column is-paddingless is-10-touch is-offset-1-touch is-4-desktop flexd">
+
                 <button v-on:click.prevent="prev()" class="button is-light">Anterior</button>
                 <button v-on:click.prevent="submit()" class="button is-info">Salvar</button>
                     </div>
@@ -304,153 +330,78 @@
 </div>
 </div>
 </div>
-  <div id="Support" class="content-tab" style="display:none">
-      <div class="" id="">
+
+  <div id="cadastrousuarios" class="content-tab" style="display:none">
     <navbarinternal></navbarinternal>
-    <form>
-        <div v-if="step === 1">
-            <div>
-                <div id="cadastro" class="columns is-desktop">
-                    <div class="column is-4-desktop is-offset-2-desktop">
-                        <div style="min-height: 80vh" class="dflex1">
-                            <div>
-                                <div >
-                                    <label class="label mt3">CNPJ</label>
-                                    <input class="input" id="cnpj" type="text" name="cnpj" data-validate="cnpj" placeholder="00.000.000/0000-00"v-model="dados.entity.cnpj">
-                                    <label class="label mt3">Razão Social</label>
-                                    <input class="input"data-validate="text" v-model="dados.entity.fullname">
-                                    <label class="label mt3">Nome Fantasia</label>
-                                    <input class="input"  data-validate="text" style="margin-bottom: 0.75rem" v-model="dados.entity.aliasname">
-                                    <label class="label mt1">Atividade</label>
-                                    <div class="control">
-                                    <div class="select">
-                                        <select style="width:650px">
-                                        <option>Selecione a atividade</option>
-                                        <option>With options</option>
-                                        </select>
-                                    </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <label class="label mt1">Email</label>
-                                    <input class="input" v-model="dados.emails.address" label="Email">
-                                   <div class = "columns" v-for="(telephones, index) in dados.telephones">
-                                    <div class = "column is-2">
-                                        <label class="label mt1">DDD</label>
-                                        <input class="input" v-model="telephones.ddd">
-                                    </div>
-                                    <div class = "column is-10">
-                                    <label class="label mt1">Telefone</label>
-                                        <input type="text" data-validate="brPhone" class="input" v-model="telephones.number">
-                                    </div>
-                                        <button class="button is-info" v-on:click.prevent="deleteUser(index)"> delete</button>
-
-                                            <button  class="button is-info" v-on:click.prevent="addUser">Add new</button> </button>
-                                                </div>
-                                </div>
-                           
-                                <div class="mt4 mb5 column is-paddingless is-10-touch is-4-desktop flexd">
-                                    <button v-on:click.prevent="next()" class="button is-info">Próximo</button>
-                                </div>
+     <form>
+         <div class="container">
+               <div class="columns is-desktop">
+                    <div class="column is-8-desktop is-offset-2-desktop">
+                            <div v-for="(user, index) in users">
+                            <label class="label mt1">CPF</label>
+                                <input class="input" data-validate="cpf" placeholder="000.000.000-00" v-model="user.cpf"><br>
+                            <label class="label mt1">Nome completo</label>
+                                <input class="input" data-validate="text" v-model="user.nome">
+                                <label class="label mt1">Celular</label>
+                                <input class="input" data-validate="brPhone" v-model="user.celular">
+                            <label class="label mt1">E-mail</label>
+                                <input class="input"  v-model="user.email">
+                                <label class="label mt1">Confirmar e-mail</label>
+                                <input class="input" v-model="user.confirmaremail">
+                                <label class="label mt1">Autorizações</label>
+                            <div class = "columns">
+                            <div class = "column is-6">
+                            <div class="checkradio100 mt1">
+                                <input class="is-checkradio is-info" id="exampleCheckbox19" type="checkbox" name="exampleCheckbox">
+                                <label for="exampleCheckbox19">Carregar e validar duplicatas</label>
                             </div>
+                            </div>
+                            <div class = "column is-6">
+                            <div class="checkradio100 mt1">
+                                <input class="is-checkradio is-info" id="exampleCheckbox19" type="checkbox" name="exampleCheckbox">
+                                <label for="exampleCheckbox19">Dar aceite/recusar duplicata</label>
+                            </div>
+                            </div>
+                            </div>
+                             <div class = "columns">
+                            <div class = "column is-6">
+                            <div class="checkradio100 mt1">
+                                <input class="is-checkradio is-info" id="exampleCheckbox19" type="checkbox" name="exampleCheckbox">
+                                <label for="exampleCheckbox19">Autorizar transferência de titularidades de duplicatas</label>
+                            </div>
+                            </div>
+                            <div class = "column is-6">
+                            <div class="checkradio100 mt1">
+                                <input class="is-checkradio is-info" id="exampleCheckbox19" type="checkbox" name="exampleCheckbox">
+                                <label for="exampleCheckbox19">Informar entrega e liquidação</label>
+                            </div>
+                            </div>
+                            </div>
+                             <div class = "columns">
+                            <div class = "column is-6">
+                            <div class="checkradio100 mt1">
+                                <input class="is-checkradio is-info" id="exampleCheckbox19" type="checkbox" name="exampleCheckbox">
+                                <label for="exampleCheckbox19">Enviar duplicatas para Protesto</label>
+                            </div>
+                            </div>
+                            <div class = "column is-6">
+                            <div class="checkradio100 mt1">
+                                <input class="is-checkradio is-info" id="exampleCheckbox19" type="checkbox" name="exampleCheckbox">
+                                <label for="exampleCheckbox19">Informar endosso</label>
+                            </div>
+                            </div>
+                            </div>
+                                <button class="button is-info" v-on:click.prevent="deleteUser(index)">Deletar</button>
+                                <button class="button is-info" v-on:click.prevent="addUser">Novo Usuário</button>
+                              </form>
+                          </div>
+                          </div>
+                            
+                          </div>
+                          <div style="text-align: center"> 
+                           <button class="button is-info" v-on:click.prevent="enviar">Enviar convite</button> 
                         </div>
-                    </div>
-                    <div class="column is-4 is-hidden-touch">
-                        <div style="min-height: 80vh" class="dflex1">
-                            <div>
-                                <div class="infoc blue">
-                                    <div class="columns">
-                                        <div class="column is-2-desktop dflex1">
-                                            <i class="fa fa-cube fa-2x"></i>
-                                        </div>
-                                        <div class="column is-10-desktop">
-                                            <span class="titlec">Tenha em mãos seu documento de identidade (RG ou CNH)</span>
-                                            <br>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="infoc">
-                                    <span class="titlec">Suporte Diário</span>
-                                    <br>
-                                    <span class="subtitlec">Time de analistas dedicado a auxiliar em suas operações.</span>
-                                </div>
-                                <div class="infoc">
-                                    <span class="titlec">Plataformas Especializadas</span>
-                                    <br>
-                                    <span class="subtitlec">As melhores plataformas para diferentes perfis de trader.</span>
-                                </div>
-                                <div class="infoc">
-                                    <span class="titlec">Melhor Custo x Benefício</span>
-                                    <br>
-                                    <span class="subtitlec">Para o trader que opera frequentemente.</span>
-                                </div>
-                                <div class="infoc">
-                                    <span class="titlec">Segurança para Investir</span>
-                                    <br>
-                                    <span class="subtitlec">Posições de ativos custodiadas na CLBC e opções com proteção do FGC.</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div v-if="step === 2">
-            <div class="mt4">
-                <div id="cadastro1" class="columns is-desktop">
-                    <div class="column is-10-touch is-offset-1-touch is-4-desktop is-offset-2-desktop flexd">
-                        <form class="form-horizontal mt3">
-                             <div style="min-height: 100vh">
-                            <div class="control">
-                                <label class="label mt1">CEP</label>
-                                <input type="text" class="input" v-model="cep" v-on:keyup="searchCep()" placeholder="digite o cep aqui (sem hífen)">
-                                <span v-if="message" class="help is-danger">CEP não encontrado.</span>
-                                <label class="label mt1">Cidade</label>
-                                <input class="input" v-model="dados.userInfoModel.address.city">
-                                <label class="label mt1">UF</label>
-                                <input class="input" v-model="dados.userInfoModel.address.state">
-                                <label class="label mt1">Endereço</label>
-                                <input class="input" v-model="dados.userInfoModel.address.thoroughfare">
-                                <label class="label mt1">Numero</label>
-                                <input class="input" v-model="dados.userInfoModel.address.number">
-                                <label class="label mt1">Bairro</label>
-                                <input class="input" v-model="dados.userInfoModel.address.neighborhood">
-                                <label class="label mt1">Complemento</label>
-                                <input class="input" v-model="dados.userInfoModel.address.complement">
-                            </div>
-                        </form>
-                        <div class="mt5 mb5 column is-paddingless is-10-touch is-offset-1-touch is-4-desktop is-offset-2-desktop flexd">
-                <button v-on:click.prevent="prev()" class="button is-light">Anterior</button>
-                <button v-on:click.prevent="submit()" class="button is-info">Salvar</button>
-                    </div>
-                </div>
-                
-            </div>
-            </div>
-            
-        </div>
-    </form>
-</div>
-</div>
-</div>
-
-<!-- 
- <div v-if="modal" class="modal is-active">
-      <div class="modal-background"></div>
-      <div class="modal-card">
-        <header class="modal-card-head">
-          <p class="modal-card-title">Termo</p>
-          <button v-on:click="modal = !modal" class="delete" aria-label="close"></button>
-        </header>
-        <section class="modal-card-body">
-          <ul>
-            <li v-for="c in certificates"> {{c.subjectName}}</li>
-          </ul>
-        </section>
-        <footer class="modal-card-foot">
-          <button class="button is-success">Save changes</button>
-          <button class="button">Cancel</button>
-        </footer>
-      </div>
-    </div>
-</div> -->
+                          </div>
+                       
+                            <pre>{{ $data }}</pre>
+                             </div>
