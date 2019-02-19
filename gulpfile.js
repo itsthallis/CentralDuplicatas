@@ -49,4 +49,4 @@ gulp.task('watch', function(){
     gulp.watch('./Views/**/*.cshtml', ['cshtml']);
 });
 
-gulp.task('default', ['gulp watch']);
+gulp.task('default', ['scripts', 'sass']);
