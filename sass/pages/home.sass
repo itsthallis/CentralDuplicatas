@@ -52,22 +52,6 @@
     .notification
         background-color: #eee
 
-#comofunciona
-    .tile
-        border: solid #ddd 1px
-    img
-        +mobile
-            height: 10vh
-    article p
-        min-height: 7vh
-        +touch
-            font-size: 1rem
-    i
-        min-height: 7vh
-        +mobile
-            font-size: 1rem
-
-
 // Iframe responsivo
 
 #home .iframe-container
@@ -122,27 +106,60 @@
     +mobile
         max-height: 25vh
 
+    
+.height1
+    +desktop
+        min-height: 32vh
+    +widescreen
+        min-height: 28vh
+
 
 #comofunciona
+    +mobile
+        padding-bottom: 0
+    .columns:first-child
+        +mobile
+            margin-bottom: 8vh
+    .tile
+        border: solid #ddd 1px
+    img
+        +mobile
+            height: 10vh
+        +tablet
+            height: 15vh
+    i
+        min-height: 7vh
+        +mobile
+            font-size: 1rem
     .card-header
         +desktop
             min-height: 20vh
-    
-.height1
-    min-height: 25vh
-
-#comofunciona
+    .column
+        margin-bottom: 6vh
+    article
+        p
+            font-size: 1.2rem
+            +touch
+                font-size: 1.4rem
+                min-height: 10vh
+            +tablet
+                min-height: 17vh
+            +desktop
+                min-height: 15vh
     .card .card-footer
         font-size: 1.2rem
         +touch
             min-height: 20vh
-    p
-        font-size: 1.3rem
-    +desktop
         .cardtitle
             min-height: 12vh
-        .subtitle
-            min-height: 15vh
+        .cardsubtitle
+            +tablet
+                min-height: 15vh
+            +desktop
+                min-height: 17vh
+            +widescreen
+                min-height: 15vh
+
 
 #bannerpremio
     min-height: 30vh
@@ -199,4 +216,21 @@
     align-items: center
     +mobile
         display: none
-        
+
+.card-equal-height
+    display: flex
+    flex-direction: column
+    height: 100%
+
+.card-equal-height .card-footer 
+    margin-top: auto
+
+.card
+	border-radius: 0.5rem
+
+.card img
+	border-radius: 0.5rem
+	max-width: 96.5%
+	max-height: 96.5%
+	margin: 0 auto
+	margin-top: -3.5%
