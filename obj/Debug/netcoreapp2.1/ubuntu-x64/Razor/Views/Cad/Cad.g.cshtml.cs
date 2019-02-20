@@ -61,7 +61,7 @@ using CentralDuplicatas.Models;
             WriteLiteral("\n<script src=\"https://unpkg.com/vue\"></script>\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js\"></script>\n\n<div class=\"\" id=\"cad\">\n    <navbarinternal></navbarinternal>\n    ");
             EndContext();
             BeginContext(238, 9657, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c66fac704ce14aabab8dfcb89bc9c026", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e3eef772f95e498786d83f1ee0875de9", async() => {
                 BeginContext(244, 7291, true);
                 WriteLiteral(@"
         <div v-if=""step === 1"">
@@ -176,7 +176,7 @@ using CentralDuplicatas.Models;
                 WriteLiteral("titulocadastro title=\"Documentos\" subtitle=\"Preencha os campos para prosseguir.\"></titulocadastro>\n                        ");
                 EndContext();
                 BeginContext(7535, 1514, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6a288d934a674fdebcec510de4a1edab", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a90f5f5ad3674f5a846b8adaffeb5259", async() => {
                     BeginContext(7569, 1473, true);
                     WriteLiteral(@"
                             <div class=""control"">
