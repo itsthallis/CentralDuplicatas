@@ -6,9 +6,9 @@ namespace CentralDuplicatas.Controllers
 
     [Route("Termos")] 
 
-    public class termosController : Controller
+    public class TermosController : Controller
     {
-        public IActionResult termos()
+        public IActionResult Termos()
         {
             return View();
         }

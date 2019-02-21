@@ -6,7 +6,7 @@ namespace CentralDuplicatas.Controllers
 
     [Route("Lista")] 
 
-    public class xmlimportController : Controller
+    public class XmlimportController : Controller
     {
         public IActionResult Xmlimport()
         {
