@@ -73,7 +73,7 @@ using CentralDuplicatas.Models;
                         ");
             EndContext();
             BeginContext(422, 66, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "d3cf3ac0b284409385bd7083ec6562d5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "f7d2327fb4f04625bc5627ab884e3bd0", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -94,7 +94,7 @@ using CentralDuplicatas.Models;
             WriteLiteral("\n                        <h3 class=\"subtitle\"><b>Seja bem vindo!</b></h3>\n                        <p>Realize a verificação do certificado digital para continuar</p>\n                        ");
             EndContext();
             BeginContext(677, 236, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3182a2cf5a984479856a5d345dbbdcc1", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "09ef44ec14624336a48dfefc846edaf6", async() => {
                 BeginContext(683, 223, true);
                 WriteLiteral("\n                            <a href=\"https://ieptb-centralduplicata.azurewebsites.net/certificado\" class=\"button is-info is-medium is-fullwidth justifyflexstart\"> VERIFICAR CERTIFICADO DIGITAL </a>\n                        ");
                 EndContext();

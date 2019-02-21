@@ -179,3 +179,6 @@
 /home/thallis/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.dll
 /home/thallis/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.pdb
 /home/thallis/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/CentralDuplicatas.csproj.CopyComplete
+/home/thallis/Área de Trabalho/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/audiospot/audiospotband.g.cshtml.cs
+/home/thallis/Área de Trabalho/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/audiospot/audiospotcbn.g.cshtml.cs
+/home/thallis/Área de Trabalho/CentralDuplicatas/obj/Debug/netcoreapp2.1/ubuntu-x64/Razor/Views/audiospot/audiospotjp.g.cshtml.cs

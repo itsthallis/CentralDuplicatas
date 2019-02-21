@@ -92,7 +92,7 @@ using CentralDuplicatas.Models;
             WriteLiteral("rnal></navbarinternal>\n</div>\n\n<div id=\"WebDev\" class=\"content-tab\">\n    <div class=\"\" id=\"cad\">\n        ");
             EndContext();
             BeginContext(1180, 6008, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9d24a370cb0c4ca6aa12b94126e59417", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d5d2458a86c24e608d8591d8270a9218", async() => {
                 BeginContext(1186, 1315, true);
                 WriteLiteral(@"
             <div v-if=""step === 1"">
@@ -114,7 +114,7 @@ using CentralDuplicatas.Models;
                                                     ");
                 EndContext();
                 BeginContext(2501, 38, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fd4928813bef4603b7a0ed1eb8e9b992", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "19bc73a599314aca99a9ca28d137e50f", async() => {
                     BeginContext(2509, 21, true);
                     WriteLiteral("Selecione a atividade");
                     EndContext();
@@ -134,7 +134,7 @@ using CentralDuplicatas.Models;
                 WriteLiteral("\n                                                    ");
                 EndContext();
                 BeginContext(2592, 29, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "90a651fa8ab74f759a7661ddbded5fd8", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "843b93a8f19a4af39f75c6d42b5b2c72", async() => {
                     BeginContext(2600, 12, true);
                     WriteLiteral("With options");
                     EndContext();
@@ -194,7 +194,7 @@ using CentralDuplicatas.Models;
                             ");
                 EndContext();
                 BeginContext(5065, 1654, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "14764681de7f4dc49009581789a243cf", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "99c8417fc70140c6901a8fcdba31c76e", async() => {
                     BeginContext(5099, 1613, true);
                     WriteLiteral(@"
                                     <div class=""control"">
@@ -262,7 +262,7 @@ using CentralDuplicatas.Models;
             WriteLiteral("\n    </div>\n</div>\n<div id=\"cadastroadministrador\" class=\"content-tab\" style=\"display:none\">\n    ");
             EndContext();
             BeginContext(7285, 7255, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1c338865332b4c0b827306d214c81d21", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6232d57c761945619ade01717b0f4f09", async() => {
                 BeginContext(7291, 4806, true);
                 WriteLiteral(@"
         <div v-if=""step === 1"">
@@ -340,7 +340,7 @@ using CentralDuplicatas.Models;
                         ");
                 EndContext();
                 BeginContext(12097, 1582, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4a3c0f149cae4619ae744611e38445b1", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1751bba21f874af9b95aff1806459c1f", async() => {
                     BeginContext(12131, 1541, true);
                     WriteLiteral(@"
                                 <div class=""control"">
@@ -415,7 +415,7 @@ using CentralDuplicatas.Models;
             WriteLiteral("\n    </div>\n</div>\n</div>\n\n<div id=\"cadastrousuarios\" class=\"content-tab\" style=\"display:none\">\n    ");
             EndContext();
             BeginContext(14640, 4235, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d5b4d2888e0f449c833251817256eb8f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2f61cfff367b4655b595674244320c86", async() => {
                 BeginContext(14646, 4222, true);
                 WriteLiteral(@"
         <div class=""container mt5"">

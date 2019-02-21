@@ -203,3 +203,47 @@ Vue.component('navbarinternal', {
     }
   }
 });
+
+Vue.component('audioplayer', {
+   template:`
+    <div class="fullheight dflex1">
+        <div class="column is-4">   
+<div class="holder">
+   <div class="audio green-audio-player">
+     <div class="loading">
+       <div class="spinner"></div>
+     </div>
+     <div class="play-pause-btn">  
+       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="24" viewBox="0 0 18 24">
+         <path fill="#566574" fill-rule="evenodd" d="M18 12L0 24V0" class="play-pause-icon" id="playPause"/>
+       </svg>
+     </div>
+ 
+     <div class="controls">
+       <span class="current-time">0:00</span>
+       <div class="slider" data-direction="horizontal">
+         <div class="progress">
+           <div class="pin" id="progress-pin" data-method="rewind"></div>
+         </div>
+       </div>
+     </div>
+ 
+     <div class="volume">
+       <div class="volume-controls hidden">
+         <div class="slider" data-direction="vertical">
+           <div class="progress">
+             <div class="pin" id="volume-pin" data-method="changeVolume"></div>
+           </div>
+         </div>
+       </div>
+     </div>
+ 
+     <audio crossorigin>
+       <slot name="audio"></slot>
+     </audio>
+   </div>
+ </div>
+ </div>
+    </div>
+   `
+});
